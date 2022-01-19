@@ -1,3 +1,5 @@
+## This forked project was adjusted to work for mm10 data
+
 scarHRD R package Manual
 ========================
 
