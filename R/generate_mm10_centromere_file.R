@@ -2,7 +2,7 @@ library(gtools)
 
 load("./R/sysdata.rda")
 
-gap <- read.table("./R/gap.txt", sep="\t", header = F)
+gap <- read.table("./generate_mm10_centromere_data/gap.txt", sep="\t", header = F)
 gap <- gap[gap$V8=="centromere",]
 gap <- gap[mixedorder(gap$V2),]
 
